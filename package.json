@@ -1,0 +1,33 @@
+{
+  "name": "google_maps_schema_parser_builder",
+  "version": "1.0.0-0",
+  "description": "Google Maps Schema Parser Builder",
+  "scripts": {
+    "schema-update": "node .standard-version/update-schema-references.js",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legytma/google_maps_schema_parser.git"
+  },
+  "keywords": [
+    "Legytma",
+    "json-schema",
+    "schema_widget",
+    "standard-verion",
+    "google_maps_schema_parser"
+  ],
+  "author": "Alex Manoel Ferreira Silva <alex@legytma.com.br>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Legytma/google_maps_schema_parser/issues"
+  },
+  "homepage": "https://github.com/Legytma/google_maps_schema_parser#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-google": "^0.14.0",
+    "replace-in-file": "^6.1.0",
+    "standard-version": "^8.0.2",
+    "yaml": "^1.10.0"
+  }
+}
