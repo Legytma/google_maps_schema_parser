@@ -85,14 +85,9 @@ class MyApp extends StatelessWidget {
                 });
               }
 
-              return Container();
+              return Center(child: Text("Loading..."));
             },
           ),
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: _incrementCounter,
-          tooltip: 'Increment',
-          child: Icon(Icons.add),
         ),
       ),
     );
