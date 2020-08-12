@@ -4,7 +4,7 @@ import 'package:schema_widget/schema_widget.dart';
 import 'package:get_it/get_it.dart';
 
 void main() {
- runApp(MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
