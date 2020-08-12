@@ -32,7 +32,7 @@ The [google_maps_schema_parser](https://pub.dev/packages/google_maps_schema_pars
 dependencies:
   get_it:
   schema_widget:
-  google_maps_schema_parser: ^1.1.0-0
+  google_maps_schema_parser: ^1.0.0-1
 ```
 * Install packages from the command line:
   with Flutter:

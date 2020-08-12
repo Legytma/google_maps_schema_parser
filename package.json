@@ -1,6 +1,6 @@
 {
   "name": "google_maps_schema_parser_builder",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "Google Maps Schema Parser Builder",
   "scripts": {
     "schema-update": "node .standard-version/update-schema-references.js",

@@ -1,6 +1,6 @@
 name: google_maps_schema_parser
 description: A google_maps_flutter Schema Parser using schema_widget.
-version: 1.0.0-0
+version: 1.0.0-1
 homepage: https://github.com/Legytma/google_maps_schema_parser
 
 environment:
