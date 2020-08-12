@@ -46,12 +46,14 @@ class GoogleMapSchemaWidgetParser extends SchemaWidgetParser<GoogleMap> {
       compassEnabled: value["compassEnabled"] ?? true,
       onTap: SchemaWidget.parse<ArgumentCallback<LatLng>>(
           buildContext, value['onTap']),
-      padding: SchemaWidget.parse<EdgeInsets>(buildContext, value['padding']),
+      padding: SchemaWidget.parse<EdgeInsets>(buildContext, value['padding'],
+          const EdgeInsets.all(0)),
       onLongPress: SchemaWidget.parse<ArgumentCallback<LatLng>>(
           buildContext, value['onLongPress']),
       buildingsEnabled: value['buildingsEnabled'] ?? true,
       cameraTargetBounds: SchemaWidget.parse<CameraTargetBounds>(
-          buildContext, value['cameraTargetBounds']),
+          buildContext, value['cameraTargetBounds'],
+          CameraTargetBounds.unbounded),
       circles: SchemaWidget.parse<Set<Circle>>(buildContext, value['circles']),
       gestureRecognizers:
           SchemaWidget.parse<Set<Factory<OneSequenceGestureRecognizer>>>(
