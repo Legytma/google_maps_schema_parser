@@ -83,3 +83,4 @@ coverage
 *.old
 *.packages
 lefthook-local.yml
+.secret.local.json
